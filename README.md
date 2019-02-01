@@ -1,5 +1,9 @@
-# What is this?
+# What is this? LuaExtended + Defold Engine API
 LuaExtended is a syntax definition and snippet package for Sublime Text 3.
+---
+Added:
+* [Defold API](https://www.defold.com/ref/sys/)
+* [Flow.lua methods](https://github.com/britzl/ludobits/blob/master/ludobits/m/flow.lua)
 
 [![Package Control](https://img.shields.io/packagecontrol/dt/LuaExtended.svg?maxAge=2592000)](https://packagecontrol.io/packages/LuaExtended)
 [![license](https://img.shields.io/github/license/viluon/LuaExtended.svg?maxAge=2592000)](https://github.com/viluon/LuaExtended/blob/master/LICENSE.md)
@@ -85,3 +89,6 @@ You will need to add a binding that tells SublimeLinter to lint LuaExtended just
 ![](https://i.imgur.com/7LOKYXF.png)
 
 And there you go! Try opening a `*.luae`, `*.ext.lua` or `*.extended.lua` file and see whether linting works. If it for some reason doesn't work, read the tutorial again and check that you've followed it to the point. Try restarting Sublime before opening an issue!
+
+----
+Based on https://forum.defold.com/t/full-autocomplete-defold-api-for-sublime-text-3/10910
